@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,9 +9,9 @@ namespace ConsoleApp9
 {
     class Program
     {
-        static readonly string directory = "C:\\Users\\Александр\\Documents\\генерация";
-        static readonly string filePathForSave = "C:\\Users\\Александр\\Documents\\Генерацияфайла.txt";
-        static readonly string tempFilePathFinal = "C:\\Users\\Александр\\Documents\\BigFileSorted.txt";
+        static readonly string directory = "C:\\Users\\Денис\\Documents\\генерация";
+        static readonly string filePathForSave = "C:\\Users\\Денис\\Documents\\Генерацияфайла.txt";
+        static readonly string tempFilePathFinal = "C:\\Users\\Денис\\Documents\\BigFileSorted.txt";
         static void GenerateFile(int numRow, int maxLen, string filepath)
         {
             FileStream file1 = new FileStream(filepath, FileMode.Create); //создаем файловый поток
